@@ -1,0 +1,78 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(100,151,177);
+    background: linear-gradient(90deg, rgba(100,151,177,1) 0%, rgba(0,91,150,1) 100%);
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Overpass", serif;
+    
+}
+
+.input_container {
+    padding: 10px;
+    background-color:  #03396c;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.subject {
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hour {
+    font-size: 1rem;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 85, 221);
+    color: aliceblue;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color:  #0056b3;
+    color: aliceblue;
+    border: 2px solid #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 955px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+}
